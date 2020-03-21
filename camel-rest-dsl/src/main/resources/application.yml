@@ -1,0 +1,18 @@
+camel:
+  rest:
+    port: 9090
+    api-component: servlet
+    api-host: localhost
+
+server:
+    port: 9090
+
+students:
+    url: http://localhost:8091/api/student/
+    
+spring:
+    application:
+      name: camel-rest-dsl
+      
+      
+      
